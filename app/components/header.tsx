@@ -6,8 +6,8 @@ import { useState } from "react";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Privacy Policy", href: "/privacy" },
-  { name: "Terms of Service", href: "/terms" },
+  { name: "Privacy", href: "/privacy" },
+  { name: "Terms", href: "/terms" },
 ];
 
 export default function Header() {
