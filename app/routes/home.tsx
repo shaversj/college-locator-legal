@@ -41,7 +41,9 @@ export default function Home() {
         </div>
       </main>
       <footer className={"grid w-full place-items-center"}>
-        <a href="https://logo.dev">Logos provided by Logo.dev</a>
+        <a href="https://logo.dev" className={"hover:underline"}>
+          Logos provided by Logo.dev
+        </a>
 
         <div className="mt-4">
           <a href="/privacy" className="hover:underline">
