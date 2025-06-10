@@ -96,6 +96,9 @@ export default function Home() {
           <Link to="https://supabase.com/privacy">
             <li className={"text-blue-600"}>Supabase</li>
           </Link>
+          <Link to="https://www.logo.dev/legal/privacy">
+            <li className={"text-blue-600"}>Logo.dev</li>
+          </Link>
         </ul>
       </div>
       <br />
