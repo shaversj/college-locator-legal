@@ -22,7 +22,11 @@ export default function Header() {
         <div className="hidden items-center justify-between lg:flex">
           <div className="flex space-x-4">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-black hover:text-gray-900">
+              <a
+                key={item.name}
+                href={item.href}
+                className="text-black hover:text-gray-900 hover:underline"
+              >
                 {item.name}
               </a>
             ))}
