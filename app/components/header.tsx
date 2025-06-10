@@ -1,4 +1,4 @@
-import logo from "../../public/logo.png";
+import logo from "/logo.png";
 import Bars3Icon from "~/components/Bars3Icon";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import XMarkIcon from "~/components/XMarkIcon";

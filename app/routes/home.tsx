@@ -40,6 +40,9 @@ export default function Home() {
           />
         </div>
       </main>
+      <footer className={"grid w-full place-items-center"}>
+        <a href="https://logo.dev">Logos provided by Logo.dev</a>
+      </footer>
     </div>
   );
 }
