@@ -1,6 +1,7 @@
 import type { Route } from "./+types/home";
 import MobileImage from "/mobile.png";
 import AppStoreIcon from "/Download_on_the_App_Store_Badge_US-UK.webp";
+import { Link } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [{ title: "College Locator" }];
@@ -33,11 +34,12 @@ export default function Home() {
             Find colleges and universities near you or across the country—explore enrollment,
             degrees, and more with College Locator.
           </p>
-          <img
-            src={AppStoreIcon}
-            alt={"Download on the App Store"}
-            className="mx-auto w-48 pt-14 md:mx-0"
-          />
+
+          <div className="grid h-fit w-full place-items-center pt-14 md:place-items-start">
+            <Link to={"https://apps.apple.com/app/college-locator/id6449708700"}>
+              <img src={AppStoreIcon} alt={"Download on the App Store"} />
+            </Link>
+          </div>
         </div>
       </main>
       <footer className={"grid w-full place-items-center"}>
