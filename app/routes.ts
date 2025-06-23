@@ -5,5 +5,6 @@ export default [
     index("routes/home.tsx"),
     route("privacy", "routes/privacy.tsx"),
     route("terms", "routes/terms.tsx"),
+    route("delete", "routes/delete.tsx"),
   ]),
 ] satisfies RouteConfig;
