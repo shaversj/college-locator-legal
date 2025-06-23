@@ -135,6 +135,16 @@ export default function Home() {
         will respond in a reasonable time.
       </p>
       <br />
+      <p>
+        If you wish to permanently delete your account and all associated data, please visit the
+        following page for step-by-step instructions:
+      </p>
+      <p>
+        <Link to="/delete" className="text-blue-600 underline">
+          Delete Account Instructions
+        </Link>
+      </p>
+      <br />
       <strong className={"text-xl font-bold"}>Children</strong>
       <p>
         The Service Provider does not use the Application to knowingly solicit data from or market
